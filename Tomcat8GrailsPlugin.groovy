@@ -25,6 +25,6 @@ class Tomcat8GrailsPlugin {
 	def developers = [
 		[name: 'Burt Beckwith', email: 'bbeckwith@gopivotal.com']
 	]
-	def issueManagement = [system: 'JIRA', url: 'http://jira.grails.org/browse/GPTOMCAT8'] // TODO
+	def issueManagement = [system: 'JIRA', url: 'http://jira.grails.org/browse/GPTOMCAT']
 	def scm = [ url: 'https://github.com/grails-plugins/grails-tomcat8-plugin' ]
 }
