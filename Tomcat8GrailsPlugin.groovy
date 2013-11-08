@@ -23,7 +23,7 @@ class Tomcat8GrailsPlugin {
 	def license = 'APACHE'
 	def organization = [name: 'SpringSource', url: 'http://www.springsource.org/']
 	def developers = [
-		[name: 'Burt Beckwith', email: 'bbeckwith@gopivotal.com']
+		[name: 'Burt Beckwith', email: 'burt@burtbeckwith.com']
 	]
 	def issueManagement = [system: 'JIRA', url: 'http://jira.grails.org/browse/GPTOMCAT']
 	def scm = [ url: 'https://github.com/grails-plugins/grails-tomcat8-plugin' ]
