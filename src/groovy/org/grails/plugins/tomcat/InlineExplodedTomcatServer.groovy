@@ -94,7 +94,8 @@ class InlineExplodedTomcatServer extends TomcatServer {
 		}
 
 		aliases.each { String alias, String realPath ->
-			resources.createWebResourceSet WebResourceRoot.ResourceSetType.POST, realPath, alias, '/'
+			URL realPathUrl = new File(realPath).toURI().toURL()
+			resources.createWebResourceSet WebResourceRoot.ResourceSetType.POST, alias, realPathUrl, '/'
 		}
 	}
 	

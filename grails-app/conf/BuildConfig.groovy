@@ -14,7 +14,7 @@ grails.project.dependency.resolution = {
 	}
 
 	dependencies {
-		String tomcatVersion = '8.0.0-RC1'
+		String tomcatVersion = '8.0.0-RC5'
 
 		runtime("org.apache.tomcat:tomcat-catalina-ant:$tomcatVersion") {
 			excludes 'tomcat-catalina', 'tomcat-coyote'
