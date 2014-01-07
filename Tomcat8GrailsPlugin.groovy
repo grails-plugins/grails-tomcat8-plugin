@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 class Tomcat8GrailsPlugin {
-	def version = '8.0.0-RC5'
+	def version = '8.0.0-RC10'
 	def grailsVersion = '2.3 > *'
 	def scopes = [excludes: 'war']
 	def title = 'Apache Tomcat 8 plugin'
@@ -26,5 +26,5 @@ class Tomcat8GrailsPlugin {
 		[name: 'Burt Beckwith', email: 'burt@burtbeckwith.com']
 	]
 	def issueManagement = [system: 'JIRA', url: 'http://jira.grails.org/browse/GPTOMCAT']
-	def scm = [ url: 'https://github.com/grails-plugins/grails-tomcat8-plugin' ]
+	def scm = [url: 'https://github.com/grails-plugins/grails-tomcat8-plugin']
 }
