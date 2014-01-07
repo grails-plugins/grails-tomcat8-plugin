@@ -29,7 +29,7 @@ grails.project.dependency.resolution = {
 		compile 'javax.servlet:javax.servlet-api:3.1.0'
 
 		// needed for JSP compilation
-		runtime 'org.eclipse.jdt.core.compiler:ecj:4.3.1'
+		runtime 'org.eclipse.jdt.core.compiler:ecj:4.2.2'
 	}
 
 	plugins {
