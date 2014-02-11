@@ -27,7 +27,7 @@ grails.project.dependency.resolution = {
 		runtime "org.apache.tomcat.embed:tomcat-embed-logging-log4j:$tomcatVersion"
 
 		runtime "org.apache.tomcat.embed:tomcat-embed-logging-juli:$tomcatVersion"
-		
+
 		runtime "org.apache.tomcat.embed:tomcat-embed-websocket:$tomcatVersion"
 
 		compile 'javax.servlet:javax.servlet-api:3.1.0'
