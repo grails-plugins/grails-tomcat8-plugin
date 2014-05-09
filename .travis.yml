@@ -7,6 +7,6 @@ before_script:
 script: ./travis-build.sh
 env:
   global:
-  - secure: LrVonKDVyNsS3GrErpKeqicnRlwiXQi/LylPL0now266SM1E3clBGyZxA89g7ItqFpqQivwANysTpRL0nO8gd+EkyVG5B19P9Fq0eELLglhinU4T/T5MmWl0a2GFQSyewZDjJDrQQl1zMG3ejbl9QrFauwM4NfPcVMpyON3wjOY=
-  - secure: eqMOkrSZOS44IZj6cK5i8/JCneWyMRCuhq7Gq+AMSIJFiw6c9ZMkooco/LLL2OV7D9f6yYmZXSDXWLv1scy9/YqrQftYrI7VyVA4Zwb4+MGag2kJ/T7jRtQ/FkYmSBex6VRuzGPN+ZyTdjuaJm3TJoCZwWfGE3Sw9OPYRRLEZAA=
-  - secure: Ieprqq+UrMPivvu4cZXK4h+Vwl6QTTv/RYKFJddoN7FxHYoSqxXNNz3MBB0OS3DDM3jyHPLapvolWh8/4zis9hKl8R3C2Al00hiNBRtH0urx+IamvUcki6VEl/NSd99QQGCxqZn+zCH//N4nO5bS/u4fVnP5LfC+KBshdbPFrkU=
+  - secure: yiVfOcJ1oUYEbCXIusQCmG4rur1WCRT0OoOkx1jtoBmefcU40KabcwKfRjSUZAM7IbmIeulKE11Huag0+cUV+YWbAL6/ECRTaoyXcemgMnQxKlyRK22ThYdpqJpT0Ka1kfUCB/7ZgGFHHngJzhv53OWK9Ju6oDN+polUZ5D4J+Y=
+  - secure: Y88PcdoTHDj56wBJfQGktiglJniRoJRO3+uTIh6YRLDrLBbnK2dRVoP2nrd3nIble1/NRi38rqDpTc7zPAiGqdG+cjkO4tYRr+hkbNeBZSBPr/IGztkjEfPsraePyw5tssEYGqcy7jgTscIDDGqu0HO60FuLjU09yWsJ8dLabgc=
+  - secure: r46Z9xpU7ltmzoA15PuOViqfUNOKLElr8n28rd3eV0ngEGDiHV6pPETa3kk+wbsC4BivBKy9UPEtS2+6BuNMxM3YV9ExgqJcL5eDpkNnK80oRp7fJgkCR8LuLbxZJ2dPE5MevEUdDwTySpWQLwCwJQh5C9LB/Qt3ECDeWh2/NHg=
