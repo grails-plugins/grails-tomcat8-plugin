@@ -70,19 +70,19 @@ class InlineExplodedTomcatServer extends TomcatServer {
 	}
 
 	protected void configureAliases(Context context) {
-		def aliases = [:]
+		def aliases = new HashMap<String, String>()
 
 		for (plugin in Holders.getPluginManager()?.userPlugins) {
 			def dir = pluginSettings.getPluginDirForName(GrailsNameUtils.getScriptName(plugin.name))
 			File webappDir = dir ? new File(dir.file.absolutePath, "web-app") : null
 			if (webappDir?.exists()) {
-				aliases["/plugins/$plugin.fileSystemName"] = webappDir.absolutePath
+				aliases["/plugins/$plugin.fileSystemName".toString()] = webappDir.absolutePath
 			}
 		}
 		registerAliases aliases
 	}
 
-	protected void registerAliases(Map aliases) {
+	protected void registerAliases(Map<String, String> aliases) {
 		if (!aliases) {
 			return
 		}
