@@ -34,7 +34,7 @@ import org.grails.plugins.tomcat.TomcatKillSwitch
  * @author Graeme Rocher
  * @since 2.2
  */
-@CompileStatic
+// @CompileStatic
 class ForkedTomcatServer extends ForkedGrailsProcess implements EmbeddableServer {
 
 	public static final GrailsConsole CONSOLE = GrailsConsole.getInstance()
