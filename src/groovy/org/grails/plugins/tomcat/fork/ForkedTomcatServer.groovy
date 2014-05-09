@@ -127,6 +127,7 @@ class ForkedTomcatServer extends ForkedGrailsProcess implements EmbeddableServer
 		})
 
 		t.start()
+
 		while(!isAvailable(host, httpPort)) {
 			sleep 100
 		}
@@ -135,7 +136,7 @@ class ForkedTomcatServer extends ForkedGrailsProcess implements EmbeddableServer
 
 	boolean isAvailable(String host, int port) {
 		try {
-			new Socket(host, port)
+			new Socket(host ?: 'localhost', port)
 			return true
 		}
 		catch (e) {
@@ -186,10 +187,10 @@ class ForkedTomcatServer extends ForkedGrailsProcess implements EmbeddableServer
 	}
 
 	void startSecure() {
-		startSecure null
+		tomcatRunner.startSecure null
 	}
 
 	void startSecure(int port) {
-		startSecure null, null, port
+		tomcatRunner.startSecure null, null, port
 	}
 }
