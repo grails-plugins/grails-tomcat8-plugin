@@ -1,8 +1,0 @@
-.settings
-*.swp
-*.log
-target
-web-app
-grails-tomcat8-*.zip
-grails-tomcat8-*.zip.sha1
-plugin.xml
